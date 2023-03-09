@@ -1,5 +1,4 @@
-document.querySelector('#app').innerHTML = /*html*/ `
-  <div>
-   Hello World
-  </div>
-`;
+import './index.css';
+import { App } from './App';
+
+document.querySelector('#app').innerHTML = App();
