@@ -3,5 +3,3 @@ document.querySelector('#app').innerHTML = /*html*/ `
    Hello World
   </div>
 `;
-
-setupCounter(document.querySelector('#counter'));
